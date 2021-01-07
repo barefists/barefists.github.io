@@ -1,0 +1,583 @@
+# Copyright (C) 2016 gamez
+# This file is distributed under the same license as the gamez package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gamez\n"
+"Report-Msgid-Bugs-To: https://www.themexpert.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ThemeXpert <info@themexpert.com>\n"
+"Language-Team: ThemeXpert <info@themexpert.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: archive-game_review.php:20
+msgid "Game Reviews"
+msgstr ""
+
+#: archive-video_gallery.php:21
+msgid "Video Galleries"
+msgstr ""
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40, comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43, comments.php:61
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44, comments.php:62
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47, inc/importer.php:19
+msgid "Primary"
+msgstr ""
+
+#: functions.php:48, inc/importer.php:20
+msgid "Mobile"
+msgstr ""
+
+#: inc/extras.php:49, inc/extras.php:91
+msgid "Name"
+msgstr ""
+
+#: inc/extras.php:51, inc/extras.php:96
+msgid "Email"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Website"
+msgstr ""
+
+#: inc/extras.php:66
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/extras.php:87
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/extras.php:108
+msgid "Message"
+msgstr ""
+
+#: inc/extras.php:139
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:145
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr ""
+
+#: inc/extras.php:149
+msgid "%1$s"
+msgstr ""
+
+#: inc/extras.php:154
+msgid ""
+msgstr ""
+
+#: inc/extras.php:181
+msgid "0 View"
+msgstr ""
+
+#: inc/extras.php:183
+msgid " Views"
+msgstr ""
+
+#: inc/extras.php:205
+msgid "Views"
+msgstr ""
+
+#: inc/extras.php:223
+msgid "Search ..."
+msgstr ""
+
+#: inc/gamez-sidebar.php:11
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/gamez-sidebar.php:13
+msgid "Default sidebar for Blog"
+msgstr ""
+
+#: inc/gamez-sidebar.php:22
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/gamez-sidebar.php:24
+msgid "Default sidebar for Shop"
+msgstr ""
+
+#: inc/gamez-sidebar.php:32
+msgid "Footer 1"
+msgstr ""
+
+#: inc/gamez-sidebar.php:34
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inc/gamez-sidebar.php:42
+msgid "Footer 2"
+msgstr ""
+
+#: inc/gamez-sidebar.php:44
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inc/gamez-sidebar.php:52
+msgid "Footer 3"
+msgstr ""
+
+#: inc/gamez-sidebar.php:54
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inc/gamez-sidebar.php:62
+msgid "Footer 4"
+msgstr ""
+
+#: inc/gamez-sidebar.php:64
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: inc/gamez-sidebar.php:72
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/gamez-sidebar.php:74
+msgid "Footer Bottom Widget Area"
+msgstr ""
+
+#: inc/helper-functions.php:30
+msgid "Masterpiece"
+msgstr ""
+
+#: inc/helper-functions.php:32
+msgid "Amazing"
+msgstr ""
+
+#: inc/helper-functions.php:34
+msgid "Great"
+msgstr ""
+
+#: inc/helper-functions.php:36
+msgid "Good"
+msgstr ""
+
+#: inc/helper-functions.php:38
+msgid "Okay"
+msgstr ""
+
+#: inc/helper-functions.php:40
+msgid "Mediocre"
+msgstr ""
+
+#: inc/helper-functions.php:42
+msgid "Bad"
+msgstr ""
+
+#: inc/helper-functions.php:44
+msgid "Awful"
+msgstr ""
+
+#: inc/helper-functions.php:46
+msgid "Painful"
+msgstr ""
+
+#: inc/helper-functions.php:48
+msgid "Unbearable"
+msgstr ""
+
+#: inc/helper-functions.php:50
+msgid "Disaster"
+msgstr ""
+
+#: inc/helper-functions.php:52
+msgid "Please enter a number between 0 to 10"
+msgstr ""
+
+#: inc/helper-functions.php:180
+msgid "Home"
+msgstr ""
+
+#: inc/helper-functions.php:344, inc/helper-functions.php:348, inc/helper-functions.php:352, inc/helper-functions.php:359, inc/helper-functions.php:363, inc/helper-functions.php:368
+msgid "Archives"
+msgstr ""
+
+#: inc/helper-functions.php:379
+msgid "Author: "
+msgstr ""
+
+#: inc/helper-functions.php:384
+msgid "Page"
+msgstr ""
+
+#: inc/helper-functions.php:389
+msgid "Search results for: "
+msgstr ""
+
+#: inc/helper-functions.php:394
+msgid "Error 404"
+msgstr ""
+
+#: inc/importer.php:8
+msgid "Gamez Importer"
+msgstr ""
+
+#: inc/importer.php:14
+msgid "Main Demo"
+msgstr ""
+
+#: inc/plugin-activation.php:126
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugin-activation.php:127
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugin-activation.php:128
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugin-activation.php:129
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugin-activation.php:130
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugin-activation.php:131
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:136
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:141
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:146
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:151
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:156
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:161
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:166
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:171
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-activation.php:176
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugin-activation.php:177
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/plugin-activation.php:179
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugin-activation.php:180
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: inc/plugin-activation.php:181
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugin-activation.php:182
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugin-activation.php:183
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin-activation.php:184
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/template-tags.php:52
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/template-tags.php:57
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid "Posted On"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid "Written By"
+msgstr ""
+
+#: inc/template-tags.php:69, inc/template-tags.php:89
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:71
+msgid "Tagged"
+msgstr ""
+
+#: inc/template-tags.php:71, inc/template-tags.php:91
+msgid " %1$s"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgctxt "post author "
+msgid "%s "
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "Category"
+msgstr ""
+
+#: inc/template-tags.php:106, template-parts/content-page.php:31, template-parts/content-review_single.php:248
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:109
+msgid "Edit this post"
+msgstr ""
+
+#: inc/template-tags.php:117, inc/template-tags.php:118
+msgid "0 Comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
+#: inc/woocommerce-functions.php:36
+msgid "Games Name"
+msgstr ""
+
+#: inc/woocommerce-functions.php:37
+msgid "Character's Games Name"
+msgstr ""
+
+#: inc/woocommerce-functions.php:39
+msgid "Where this product user"
+msgstr ""
+
+#: inc/woocommerce-functions.php:44
+msgid "Custom Field Type"
+msgstr ""
+
+#: inc/woocommerce-functions.php:47
+msgid "Field One"
+msgstr ""
+
+#: inc/woocommerce-functions.php:48
+msgid "Field Two"
+msgstr ""
+
+#: inc/woocommerce-functions.php:50
+msgid "Place your own description here!"
+msgstr ""
+
+#: inc/woocommerce-functions.php:86
+msgid "Product Meta"
+msgstr ""
+
+#: inc/woocommerce-functions.php:94
+msgid "Product Header"
+msgstr ""
+
+#: inc/woocommerce-functions.php:101
+msgid "Header Image"
+msgstr ""
+
+#: inc/woocommerce-functions.php:102
+msgid "Add Header Background Image"
+msgstr ""
+
+#: inc/woocommerce-functions.php:198
+msgid "Add to cart"
+msgstr ""
+
+#: inc/woocommerce-functions.php:202
+msgid "Buy product"
+msgstr ""
+
+#: inc/woocommerce-functions.php:205
+msgid "View products"
+msgstr ""
+
+#: inc/woocommerce-functions.php:211
+msgid "Select options"
+msgstr ""
+
+#: inc/woocommerce-functions.php:214
+msgid "Read more"
+msgstr ""
+
+#: inc/woocommerce-functions.php:239
+msgid "On Sale"
+msgstr ""
+
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-audio.php:26, template-parts/content-gallery.php:26, template-parts/content-image.php:26, template-parts/content-link.php:26, template-parts/content-quote.php:26, template-parts/content-single.php:26, template-parts/content-video.php:26, template-parts/content.php:26
+msgid "STICKY"
+msgstr ""
+
+#: template-parts/content-audio.php:57, template-parts/content-gallery.php:57, template-parts/content-image.php:57, template-parts/content-link.php:60, template-parts/content-page.php:20, template-parts/content-quote.php:60, template-parts/content-review_single.php:194, template-parts/content-single.php:58, template-parts/content-video.php:57, template-parts/content.php:62
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-review_single.php:51
+msgid "Watch the trailer"
+msgstr ""
+
+#: template-parts/content-review_single.php:72
+msgid "Available Platforms"
+msgstr ""
+
+#: template-parts/content-review_single.php:78
+msgid "Genre"
+msgstr ""
+
+#: template-parts/content-review_single.php:91
+msgid "Release Date"
+msgstr ""
+
+#: template-parts/content-review_single.php:95
+msgid "Developer"
+msgstr ""
+
+#: template-parts/content-review_single.php:99
+msgid "Publisher"
+msgstr ""
+
+#: template-parts/content-review_single.php:105
+msgid "Deals"
+msgstr ""
+
+#: template-parts/content-review_single.php:108
+msgid " logo"
+msgstr ""
+
+#: template-parts/content-review_single.php:129
+msgid "Reviews"
+msgstr ""
+
+#: template-parts/content-review_single.php:130
+msgid "News"
+msgstr ""
+
+#: template-parts/content-review_single.php:131
+msgid "User Review"
+msgstr ""
+
+#: template-parts/content-review_single.php:132
+msgid "Images"
+msgstr ""
+
+#: template-parts/content-review_single.php:133
+msgid "Videos"
+msgstr ""
+
+#: template-parts/content-review_single.php:215
+msgid "Pros"
+msgstr ""
+
+#: template-parts/content-review_single.php:223
+msgid "Cons"
+msgstr ""
+
+#: template-parts/content-single.php:72
+msgid "Author : "
+msgstr ""
+
+#: template-parts/content.php:69
+msgid "Read More"
+msgstr ""

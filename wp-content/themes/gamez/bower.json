@@ -1,0 +1,50 @@
+{
+  "name": "Gamez",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "gulpfile.js",
+  "authors": [
+    "Rafiqul Hasan"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "fonts/*",
+        "css/font-awesome.min.css"
+      ]
+    },
+    "animate.css": {
+      "main": [
+        "./animate.min.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "font-awesome": "4.5.0",
+    "owl.carousel": "2.0.0-beta.3",
+    "magnific-popup": "1.0.1",
+    "animate.css": "3.5.1",
+    "wow": "1.1.2",
+    "slick-carousel": "1.5.9",
+    "rater": "*",
+    "classie": "^1.0.1",
+    "jquery.nicescroll": "^3.6.8"
+  }
+}
