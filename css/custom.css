@@ -1,3 +1,59 @@
+body {
+	background-color: #1c1c1c;
+}
+.box-masonry {
+	box-shadow: 0 0 5px #000;
+	background-color: #0d0d0d;
+}
+.box-masonry:hover {
+	box-shadow: 0 0 5px #ef5285;
+}
+.box-masonry h4 a,
+.box-masonry h4 a:hover,
+.sidebar-heading a,
+.sidebar-heading a:hover,
+h1
+{
+	color: #e8e8e8;
+}
+.modal-header {
+	border-bottom: 0px;
+}
+.close {
+	color: #8a8a8a;
+	opacity: 1;
+	text-shadow: none;
+}
+.close:hover {
+	color: #fff;
+	opacity: 1;
+	text-shadow: none;
+}
+.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
+	opacity: 0.6;
+}
+.box-masonry .box-masonry-image.with-hover-overlay:before {
+	background: #000;
+}
+.box-masonry:hover .box-masonry-image.with-hover-icon:after {
+  opacity: 0.8;
+}
+.box-masonry .box-masonry-image.with-hover-icon:after,
+.box-masonry .box-masonry-hover-text-header h4 a
+{
+	color: #fff;
+}
+.content-column.white-background {
+	background: #0d0d0d;
+}
+.modal-content {
+	background-color: #0d0d0d;
+	box-shadow: 0 0 20px #000;
+	border: 0px;
+}
+.modal-backdrop.in {
+	opacity: 0.7;
+}
 .griddiv {
 	display: flex;
 	flex-wrap: wrap;
