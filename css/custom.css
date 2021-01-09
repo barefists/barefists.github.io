@@ -4,6 +4,7 @@ body {
 .box-masonry {
 	box-shadow: 0 0 5px #000;
 	background-color: #0d0d0d;
+	background: #0d0d0d;
 }
 .box-masonry:hover {
 	box-shadow: 0 0 5px #ef5285;
