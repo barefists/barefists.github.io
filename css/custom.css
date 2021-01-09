@@ -1,5 +1,7 @@
 body {
+	background: #1c1c1c;
 	background-color: #1c1c1c;
+	padding-right: 0 !important
 }
 .box-masonry {
 	box-shadow: 0 0 5px #000;
@@ -9,11 +11,15 @@ body {
 .box-masonry:hover {
 	box-shadow: 0 0 5px #ef5285;
 }
+.box-masonry .box-masonry-image {
+	background: #0d0d0d;
+}
 .box-masonry h4 a,
 .box-masonry h4 a:hover,
 .sidebar-heading a,
 .sidebar-heading a:hover,
-h1
+h1,
+h4
 {
 	color: #e8e8e8;
 }
@@ -54,6 +60,10 @@ h1
 }
 .modal-backdrop.in {
 	opacity: 0.7;
+}
+.form-control {
+	background: #1c1c1c;
+	border: 0;
 }
 .griddiv {
 	display: flex;
