@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><meta charset="utf-8">
+<head>
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Xuanming Zhou</title>
 <meta name="description" content="Portfolio site of Xuanming Zhou, game designer and illustrator.">
@@ -30,6 +31,13 @@
   <link href="https://xuanmingzhou.com/contact/index.xml" rel="alternate" type="application/rss+xml" title="Xuanming Zhou" />
 
 
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+	function onSubmit(token) {
+		document.getElementById("demo-form").submit();
+	}
+</script>
 </head>
 <body>
   <div id="all">
@@ -149,7 +157,7 @@
                <textarea rows="4" name="message" id="message" required="required" class="form-control"></textarea>
              </div>
              <div>
-               <input type="submit" value="Send" class="btn btn-ghost">
+               <button class="btn btn-ghost g-recaptcha" data-sitekey="6LeNLCcaAAAAAKyPoSCR52dgsakabQjL7DsOxbch" data-callback='onSubmit'>Send</button>
              </div>
            </div>
          </form>
