@@ -38,6 +38,11 @@ h4
 	opacity: 1;
 	text-shadow: none;
 }
+.attribution, .copyright p.credit a {
+	color: #555555;
+	font-size: 12px;
+	line-height: 15px;
+}
 .box-masonry:hover .box-masonry-image.with-hover-overlay:before {
 	opacity: 0.6;
 }
