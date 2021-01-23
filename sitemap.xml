@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xuanmingzhou.com/blog/</loc>
+    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/categories/</loc>
+    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/categories/diy/</loc>
+    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/blog/making-my-own-arcade-fightstick/</loc>
+    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/</loc>
+    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xuanmingzhou.com/games/</loc>
     <lastmod>2019-01-07T19:40:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://xuanmingzhou.com/games/polaris/</loc>
-    <lastmod>2019-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/</loc>
     <lastmod>2019-01-07T19:40:34+01:00</lastmod>
   </url>
   
@@ -190,10 +210,6 @@
   <url>
     <loc>https://xuanmingzhou.com/games/wiip/</loc>
     <lastmod>2007-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/categories/</loc>
   </url>
   
   <url>
