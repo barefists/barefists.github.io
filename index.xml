@@ -6,7 +6,16 @@
     <description>Recent content on Xuanming Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 19:40:34 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jan 2021 19:40:34 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating from Wordpress to Hugo</title>
+      <link>https://xuanmingzhou.com/blog/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Tue, 12 Jan 2021 19:40:34 +0100</pubDate>
+      
+      <guid>https://xuanmingzhou.com/blog/migrating-from-wordpress-to-hugo/</guid>
+      <description>&lt;p&gt;My old website was hosted on a Raspberry Pi 3 hosting service run by &lt;a href=&#34;https://www.mythic-beasts.com/order/rpi&#34;&gt;Mythic Beasts&lt;/a&gt; that was affordable and fast enough to run a Minecraft server in parallel. The annual contract ran out this month and I was considering renewing, but my usage of the server wasn&amp;rsquo;t nearly enough to warrant spending more money on it, hence I decided to cancel instead. My portfolio site still needed a host so I required an alternative, preferably a free one. Enter Github Pages and Hugo, two things I&amp;rsquo;ve always wanted to try and now have a reason to.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Making My Own Arcade Fightstick</title>
       <link>https://xuanmingzhou.com/blog/making-my-own-arcade-fightstick/</link>

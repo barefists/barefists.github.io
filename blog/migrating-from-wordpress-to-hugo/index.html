@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Migrating from Wordpress to Hugo - Xuanming Zhou</title>
+<meta name="description" content="Portfolio site of Xuanming Zhou, game designer and illustrator.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.carousel.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.theme.css">
+
+
+  <link href="https://xuanmingzhou.com/css/style.pink.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://xuanmingzhou.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://xuanmingzhou.com/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+    
+      <p class="sidebar-p">Game designer and illustrator.</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://xuanmingzhou.com/games/">Games</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/illustrations/">Illustrations</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/blog/">Blog</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/about/">About me</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  
+  <a href="mailto:xm@live.com.sg" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  <a href="https://www.linkedin.com/in/xuanming-zhou/" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/barefists" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2021 Xuanming Zhou
+        
+		<span class="attribution">
+			<br />
+			Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>, ported to <a href="https://gohugo.io/">Hugo</a> by <a href="https://github.com/kishaningithub">Kishan B</a>.<br>
+Hosted by <a href="https://pages.github.com/">Github Pages</a>.
+		</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Migrating from Wordpress to Hugo</h1>
+         <p>My old website was hosted on a Raspberry Pi 3 hosting service run by <a href="https://www.mythic-beasts.com/order/rpi">Mythic Beasts</a> that was affordable and fast enough to run a Minecraft server in parallel. The annual contract ran out this month and I was considering renewing, but my usage of the server wasn&rsquo;t nearly enough to warrant spending more money on it, hence I decided to cancel instead. My portfolio site still needed a host so I required an alternative, preferably a free one. Enter Github Pages and Hugo, two things I&rsquo;ve always wanted to try and now have a reason to.</p>
+<p><a href="https://pages.github.com/">Github Pages</a> is a free service provided by Github that provides webspace for projects and individuals. The catch is that the webpages served by Github Pages all have to be static HTML files. That means, stuff such as Wordpress and Movable Type, which use programs running on the web server to generate web pages dynamicially, don&rsquo;t work. So you either have to write the webpages yourself in raw HTML, or use a WYSIWYG editor like Adobe Dreamweaver - neither of these options support the content structure of an oft-updated blog. Fortunately, there exists a collection of static page generators that are built for this explicit purpose, and with the advent of Github Pages, are getting a lot more attention from both users and developers.</p>
+<p>Static page generators are structured like blogs, but instead of residing on a webserver like Wordpress, they live on your desktop instead. You write your post, save it, then trigger the compilation process to generate a bunch of static HTML pages that can be uploaded to a webhost. Among the many options available, the most popular ones are <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://gohugo.io/">Hugo</a>. Having played around with Jekyll some time ago for a project website, I wanted to give Hugo a spin instead. Setup on my desktop was extremely simple, but required you to be quite comfortable with the command line. For those of you who aren&rsquo;t, there are also some <a href="https://gohugo.io/tools/frontends/">GUI interfaces for Hugo</a> and a GUI-centric static site generator called <a href="https://getpublii.com/">Publii</a> you can take a look at.</p>
+<p>With that out of the way, I can now start to build the website. I couldn&rsquo;t find a Wordpress to Hugo migration tool, so I had do a bunch of manual copy-pasting. Fortunately, I didn&rsquo;t really have that much content to move. Since posts in Hugo were written in Markdown, the <a href="https://euangoddard.github.io/clipboard2markdown/">Paste to Markdown</a> tool helped a LOT. I also found a theme that closely resembled how I imagined my portfolio to look like, so I used it as a base to make modifications on. I wanted to change a few things:</p>
+<ul>
+<li>Add image galleries to my portfolio entries.</li>
+<li>Change the theme to something dark so the images stand out.</li>
+<li>Add a blog section to the site.</li>
+</ul>
+<p>For the first task, the theme had <a href="http://ashleydw.github.io/lightbox/">Lightbox</a> and <a href="https://masonry.desandro.com/">Masonry</a> scripts included, so I didn&rsquo;t have to add them myself for the creation of image galleries I needed in my posts. Had to do some digging into the javascript to find out how the theme had implemented the libraries, but after that the implementation was pretty straightforward. The second task required some detective work via the inspector in Firefox, my browser of choice, and some CSS work to implement my color choices. The third task required a bit more work - I had to actually get into how Hugo worked, and implement a second theme within the base one to lay out my blog posts in a list instead of a grid. Fortunately, there are many examples available so the solution wasn&rsquo;t too elusive. Hugo has <a href="https://gohugo.io/content-management/comments/">Disqus</a> capabilities built in, so I just leaned into that to enable comments for my posts.</p>
+<p>The final product is the site you are currently reading this post from. I&rsquo;m pretty happy with it, and learned quite a few new things.</p>
+		 
+			<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xuanming-zhou-portfolio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		 
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://xuanmingzhou.com/js/jquery.min.js"></script>
+<script src="https://xuanmingzhou.com/js/bootstrap.min.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.cookie.js"> </script>
+<script src="https://xuanmingzhou.com/js/ekko-lightbox.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.scrollTo.min.js"></script>
+<script src="https://xuanmingzhou.com/js/masonry.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/owl.carousel.min.js"></script>
+<script src="https://xuanmingzhou.com/js/front.js"></script>
+
+
+
+</body>
+</html>
