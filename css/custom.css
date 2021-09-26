@@ -87,20 +87,30 @@ ul.pager {
 .content-column-content ul.pager li.next::before, .content-column-content ul.pager li.previous::before {
 	content: none;
 }
-.blog p, .blog ul {
+.blog-content {
+	column-count: 2;
+	column-gap: 100px;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	column-rule-color: #1C1C1C;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	column-width: 300px;
+}
+.blog-content p, .blog-content ul {
 	font-size: 18px;
 	line-height: 30px;
-	max-width: 580px;
+	max-width: 500px;
 }
-.blog a img {
+.blog-content a img {
 	width:100%;
 	margin: 30px 0px 30px 0px;
 	border: 2px solid #1C1C1C;
 }
-.blog h4 {
+.blog-content h4 {
 	margin-bottom: 24px;
 }
-.blog h5 {
+.blog-content h5 {
 	color: #bbbbbb;
 	font-size: 18px;
 	margin-bottom: 30px;
