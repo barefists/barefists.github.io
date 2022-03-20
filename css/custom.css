@@ -87,6 +87,19 @@ ul.pager {
 .content-column-content ul.pager li.next::before, .content-column-content ul.pager li.previous::before {
 	content: none;
 }
+figure {
+	margin: 30px 0px 30px 0px;
+	break-inside: avoid-column;
+}
+figure .img-responsive {
+	width:100%;
+	border: 2px solid #1C1C1C;
+	margin-bottom: 3px;
+}
+figure figcaption {
+	text-align: center;
+	color: rgb(100, 100, 100);
+}
 .blog-content {
 	column-count: 2;
 	column-gap: 100px;
@@ -98,16 +111,21 @@ ul.pager {
 	column-width: 300px;
 	max-width: 1100px;
 }
+.blog-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 30px;
+  margin-bottom: 35px;
+}
 .blog-content p, .blog-content ul {
 	font-size: 18px;
 	line-height: 30px;
 	max-width: 500px;
 }
-.blog-content a img {
-	width:100%;
-	margin: 30px 0px 30px 0px;
-	border: 2px solid #1C1C1C;
+.blog-content li::before {
+	padding-right: 10px;
 }
+
 .blog-content h4 {
 	margin-bottom: 24px;
 }
