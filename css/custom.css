@@ -90,6 +90,7 @@ ul.pager {
 figure {
 	margin: 30px 0px 30px 0px;
 	break-inside: avoid-column;
+	max-width: 500px;
 }
 figure .img-responsive {
 	width:100%;
