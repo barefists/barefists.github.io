@@ -101,6 +101,17 @@ figure figcaption {
 	text-align: center;
 	color: rgb(100, 100, 100);
 }
+.blog-categories {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.blog-categories li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.blog-categories li.no-before::before {
+	content: none;
+}
 .blog-content {
 	column-count: 2;
 	column-gap: 100px;
