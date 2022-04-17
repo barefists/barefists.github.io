@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://xuanmingzhou.com/blog/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/categories/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/categories/game-design/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xuanmingzhou.com/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://xuanmingzhou.com/games/</loc>
     <lastmod>2022-03-19T08:35:34+01:00</lastmod>
   </url>
@@ -10,26 +35,6 @@
   <url>
     <loc>https://xuanmingzhou.com/games/stellaris-overlord/</loc>
     <lastmod>2022-03-19T08:35:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/</loc>
-    <lastmod>2022-03-19T08:35:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/blog/</loc>
-    <lastmod>2022-01-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/categories/</loc>
-    <lastmod>2022-01-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/categories/game-design/</loc>
-    <lastmod>2022-01-09T11:23:00+01:00</lastmod>
   </url>
   
   <url>

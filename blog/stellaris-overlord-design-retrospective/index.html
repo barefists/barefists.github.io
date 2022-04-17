@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Stellaris Overlord: A Design Retrospective - Xuanming Zhou</title>
+<meta name="description" content="Portfolio site of Xuanming Zhou, game designer at Paradox Interactive.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="https://xuanmingzhou.com/images/overlord-retro/og_image.jpg"/>
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.carousel.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.theme.css">
+
+<link href="https://xuanmingzhou.com/css/style.pink.css" rel="stylesheet" id="theme-stylesheet">
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://xuanmingzhou.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://xuanmingzhou.com/img/favicon.png">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-142703813-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+    
+      <p class="sidebar-p">Lead Game Designer at Paradox Interactive.</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://xuanmingzhou.com/games/">Games</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/illustrations/">Illustrations</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/blog/">Blog</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/about/">About me</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/zhou.xuanming/" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  
+  
+  <a href="https://www.linkedin.com/in/xuanming-zhou/" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="mailto:xm@live.com.sg" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+</p>
+
+    
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2022 Xuanming Zhou
+        
+		<span class="attribution">
+			<br />
+			Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>, ported to <a href="https://gohugo.io/">Hugo</a> by <a href="https://github.com/kishaningithub">Kishan B</a>.<br>
+Hosted by <a href="https://pages.github.com/">Github Pages</a>.
+		</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+<div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+</div>
+
+<div class="row">
+<div class="col-lg-8">
+<div class="content-column-content blog">
+<h1>Stellaris Overlord: A Design Retrospective</h1>
+<div class="blog-content">
+<p>It was a snowy Norrland morning in the middle of October, the advent of sunless winter months to come, when it was announced that Paradox Arctic (where I work) would be collaborating with <a href="https://forum.paradoxplaza.com/forum/threads/update-of-the-organization-at-pds.1471119/" target="_blank">PDS Green</a> to work on <a href="https://store.steampowered.com/app/281990/Stellaris/" target="_blank">Stellaris</a>. That was a bittersweet moment for me—on one hand, we had just endured the cancellation of a project we spent the last three years developing, on the other, it was an opportunity to work on a game I enjoyed.</p>
+<h4 id="learning-stellaris-again">Learning Stellaris, Again</h4>
+<p>The biggest issue was, the last time I played Stellaris was on launch week in 2016. At that time, the only other Paradox-developed game I played was <a href="https://store.steampowered.com/app/203770/Crusader_Kings_II/" target="_blank">Crusader Kings II</a>, and Stellaris was such a breath of fresh air (irony unintended).</p>
+<p>Not only was the science fiction theme intriguingly new for Grand Strategy, the user experience of playing it was unlike anything else in the Paradox roster - it was easy to pick up, fun to learn and had layers of depth once you got to know the mechanics. I introduced the game to a bunch of my friends and they all loved it.</p>
+<p>Fast forward to 2020, five (counting the unreleased <a href="https://store.steampowered.com/app/1522090/Stellaris_Nemesis/" target="_blank">Nemesis</a> at that time) major expansions later, the game was hardly recognizable.</p>
+<p><figure>
+    <a href="../../images/overlord-retro/old-planet-view.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/old-planet-view.jpg" alt="The planet view I remember. (Image from [GameplayInside](https://www.gameplayinside.com/strategy/stellaris/stellaris-beginners-guide/))" />
+    </a>
+    
+    <figcaption>
+        The planet view I remember. (Image from <a href="https://www.gameplayinside.com/strategy/stellaris/stellaris-beginners-guide/">GameplayInside</a>)
+    </figcaption>
+    
+</figure>
+<figure>
+    <a href="../../images/overlord-retro/new-planet-view.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/new-planet-view.jpg" alt="The planet view right now." />
+    </a>
+    
+    <figcaption>
+        The planet view right now.
+    </figcaption>
+    
+</figure></p>
+<p>The game moved away from its <a href="https://en.wikipedia.org/wiki/4X" target="_blank">4X</a> roots, and evolved to be more of a grand strategy title. That decision allowed expansions to explore topics such as governance and diplomacy at a depth it could never have as a 4X game. While I understood the rationale for the change, it did make my re-learning of Stellaris that much more difficult.</p>
+<p>Fortunately, I joined the team six months before the start of Overlord, which gave me some breathing room to catch up and collect my thoughts in an <a href="../in-pursuit-of-the-player-fantasy/">earlier blog post</a>. The head start also afforded me time to figure out how to tackle the upcoming design challenge.</p>
+<p>After a couple of design meetings with the Game Directors, I was fairly certain the feature I would be working on would be about subjects and the contracts that bind them to their Overlords. While I understood that it was an oft-requested feature by the most passionate of our fans, I pondered how much appeal an expansion about contracts would have to the less technical players.</p>
+<h4 id="making-contracts-sexy">Making Contracts Sexy</h4>
+<p>A contract is a binding arrangement between two parties, and is most effective when both sides stand to gain from the exchange described on it. What if there were special advantages that could only be gleaned from such contracts?</p>
+<figure>
+    <a href="../../images/overlord-retro/proposal-02.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/proposal-02.jpg" alt="The hubris in believing we had time for 6 specialists." />
+    </a>
+    
+    <figcaption>
+        The hubris in believing we had time for 6 specialists.
+    </figcaption>
+    
+</figure>
+<p>That seed of an idea evolved into the <a href="https://forum.paradoxplaza.com/forum/developer-diary/stellaris-dev-diary-248-special-prospects.1517982/" target="_blank">Specialist Empires</a>. The concept is that there are subjects so specialized in certain endeavors that they cripple other aspects of their empire in pursuit of it, resulting in both incredible bonuses and crippling penalties. These shortfalls will then be covered by the Overlord in—you guessed it—their subject agreement, in a bold exhibition of the power of contracts.</p>
+<figure>
+    <a href="../../images/overlord-retro/proposal-03.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/proposal-03.jpg" alt="We&#39;ve built and iterated on this a lot since we started." />
+    </a>
+    
+    <figcaption>
+        We&rsquo;ve built and iterated on this a lot since we started.
+    </figcaption>
+    
+</figure>
+<p>The temptation was strong to over-complicate the management of subjects by adding a slew of variables that described every aspect of overlordship (reputation, dread, etc.) but I was adamant about not adding to the complexity of an already complicated game, so I opted for the dangerous (possibly sadomasochistic) avenue of using just a single attribute for everything: Loyalty.</p>
+<p>Possibly over-ambitious, Loyalty was meant to be two of the <a href="../the-resource-trinity-of-games">resource trinity</a> at once, both an indicative resource describing the likelyhood of a subject&rsquo;s rebellion and a cumulative resource an Overlord spends to demand tribute from the subject.</p>
+<p>It was accumulated and spent in two ways: instantly and monthly. The former would immediately alter loyalty, and the latter would affect the monthly change of the resource.</p>
+<p>If done properly, Loyalty would act as a nexus between several systems that shared it as a currency, allowing the player to gain an advantage in one, while suffering consequences in others. If done badly, it could be a balancing nightmare.</p>
+<figure>
+    <a href="../../images/overlord-retro/proposal-01.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/proposal-01.jpg" alt="Surprisingly, Holdings made it to release relatively intact." />
+    </a>
+    
+    <figcaption>
+        Surprisingly, Holdings made it to release relatively intact.
+    </figcaption>
+    
+</figure>
+<p>Another feature to sweeten contracts further was Holdings. The basic concept was deceptively simple, the Overlord can contractually allow himself to build structures in subject colonies that had varying amounts of benefit for both parties (usually favoring the Overlord).</p>
+<p>When the idea was proposed, it caused a stir in the dev team. They saw it as an opportunity to create a system that could extend itself beyond purely subject-overlord relations, encompassing branch offices and possibly other structures built on foreign colonies in the future.</p>
+<p>With the planning was out of the way, the only thing left was to build it, which would be pretty straightforward, if not for a global pandemic barring us from returning to the office. The entirety of Overlord would have to be built remotely, and that presented an interesting challenge.</p>
+<h4 id="making-overlord-in-a-pandemic">Making Overlord In A Pandemic</h4>
+<p>Overlord was built by a team of roughly 50 developers and support staff over the course of a year. The core development was handled by three sub-teams, each self-sufficient in the realization of the feature assigned to them. Here they are in a neat little list (did I mention I love lists?).</p>
+<ul>
+<li>Team Subjugation (mine)</li>
+<li>Team Megastructures</li>
+<li>Team Enclaves</li>
+</ul>
+<p>Several practices employed by the teams greatly contributed to us finishing the expansion on time and without the unpleasantness of being in the same room with each other (I jest, love the gang). A few of those greatly helped me on the design end, here&rsquo;s my attempt to describe them summarily:</p>
+<h5 id="over-communicate">Over-Communicate</h5>
+<figure>
+    <a href="../../images/overlord-retro/overcommunicate.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/overcommunicate.jpg" alt="Daily written stand-up." />
+    </a>
+    
+    <figcaption>
+        Daily written stand-up.
+    </figcaption>
+    
+</figure>
+<p>We take for granted the little conversations we have when in the same space. While seemingly inconsequential, they keep the team in sync with each other, and facilitate a lot of task coordination. Only in its absence do we feel its importance.</p>
+<p>To make up for it, we do a daily written stand-up every morning. It takes bit of time, but it helps get everyone centered on what they plan to achieve during the workday and also offers a glimpse at what everyone else is doing.</p>
+<h5 id="use-all-the-tools">Use All The Tools</h5>
+<p>Nothing puts an online tool to the test like having it be the sole medium of communication between teammates working remotely. Some I personally found useful for design are listed below.</p>
+<figure>
+    <a href="../../images/overlord-retro/tools-01.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/tools-01.jpg" alt="Mapping out all the user flows on Miro." />
+    </a>
+    
+    <figcaption>
+        Mapping out all the user flows on Miro.
+    </figcaption>
+    
+</figure>
+<p>Our user experience designer uses <a href="https://miro.com/" target="_blank">Miro</a> extensively to map out every possible user flow when interfacing with our features. These flows can be conveniently linked to in chat when needed. Changes are also tracked and highlighted when they made so you always know what is new.</p>
+<figure>
+    <a href="../../images/overlord-retro/tools-02.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/tools-02.jpg" alt="Creating the Allegiance War was a multi-step process." />
+    </a>
+    
+    <figcaption>
+        Creating the Allegiance War was a multi-step process.
+    </figcaption>
+    
+</figure>
+<p>Task tracking is done with <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>, a powerful tool (albeit a tad challenging to learn in the beginning) that allows a team to track the progress of tasks, bugs, testplans and feature implementation plans across multiple sprints.</p>
+<figure>
+    <a href="../../images/overlord-retro/tools-03.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/tools-03.jpg" alt="Wow. So design. Much document." />
+    </a>
+    
+    <figcaption>
+        Wow. So design. Much document.
+    </figcaption>
+    
+</figure>
+<p>Detailed design is recorded on <a href="https://www.google.com/docs/about/" target="_blank">Google Docs</a>, broken down into concise headers so a quick link can be fired on demand to specific sections. We also make extensive use of the commenting feature to jot down notes and considerations, and for teammates to write suggestions about certain aspects of the design.</p>
+<h5 id="celebrate-small-victories">Celebrate Small Victories</h5>
+<p>It&rsquo;s easy to feel like the project is standing still in the quietness of remote work. We realized quickly how important it is to gloat a little about small victories, and let the team celebrate with you: A new UI added to the game, a function working, a piece of script that you feel was expertly written.</p>
+<figure>
+    <a href="../../images/overlord-retro/celebrate-02.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/celebrate-02.jpg" alt="In the beginning there was nothing." />
+    </a>
+    
+    <figcaption>
+        In the beginning there was nothing.
+    </figcaption>
+    
+</figure>
+<figure>
+    <a href="../../images/overlord-retro/celebrate-01.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/celebrate-01.jpg" alt="Getting jobs to give Overlord resources wasn&#39;t trivial." />
+    </a>
+    
+    <figcaption>
+        Getting jobs to give Overlord resources wasn&rsquo;t trivial.
+    </figcaption>
+    
+</figure>
+<p>A quick screenshot can go a long way in making your teammates feel like things are moving along, and inspire them with a little friendly competition for bragging rights.</p>
+<h4 id="wrapping-up">Wrapping Up</h4>
+
+<div class="youtube-video">
+  <iframe src="https://www.youtube.com/embed/d0v_ZXp5x-Y" allowfullscreen title="Stellaris Overlord Trailer"></iframe>
+</div>
+
+<p>We announced Stellaris: Overlord on the 17th of March, 2022, after a year of hard work. Fans' positive response to the both the announcement and the subsequent developer diaries made everything worth it. Our work is still not done, at the point of writing this piece, we&rsquo;re still neck deep in balancing and testing the game to ensure the best possible product at launch.</p>
+<figure>
+    <a href="../../images/overlord-retro/conclusion.jpg" data-toggle="lightbox">
+        <img src="../../images/overlord-retro/conclusion.jpg" alt="Wrapping up Overlord at the end of a long year." />
+    </a>
+    
+    <figcaption>
+        Wrapping up Overlord at the end of a long year.
+    </figcaption>
+    
+</figure>
+<p>As we&rsquo;re wrapping up the project, I wanted to pen down my experiences working on the expansion before the clarity of it is overwritten in my mind by another project. I don&rsquo;t think I&rsquo;ve ever worked with a more passionate group of developers—every single person on the team absolutely adores Stellaris, they work on the game because they love playing it and constantly toil to make it even better for fans and for themselves.</p>
+<p>They left a major impression on me, coming from casual games, you have passionate people, but not Paradox-passionate. It was truly a pleasure and my honor to work with that bunch. To my reader, I hope the writing was tolerable, until next time.</p>
+</div>
+<div class="return-to-top">
+<a href="#">Return to Top</a>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xuanming-zhou-portfolio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+</div>
+</div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://xuanmingzhou.com/js/jquery.min.js"></script>
+<script src="https://xuanmingzhou.com/js/bootstrap.min.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.cookie.js"> </script>
+<script src="https://xuanmingzhou.com/js/ekko-lightbox.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.scrollTo.min.js"></script>
+<script src="https://xuanmingzhou.com/js/masonry.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/owl.carousel.min.js"></script>
+<script src="https://xuanmingzhou.com/js/front.js"></script>
+
+
+
+</body>
+</html>

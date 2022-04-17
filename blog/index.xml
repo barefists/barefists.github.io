@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Xuanming Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jan 2022 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2022 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/blog/index.xml" rel="self" type="application/rss+xml" /> }}
     <item>
       <title>The Resource Trinity of Games</title>
       <link>https://xuanmingzhou.com/blog/the-resource-trinity-of-games/</link>
@@ -15,16 +15,17 @@
       <guid>https://xuanmingzhou.com/blog/the-resource-trinity-of-games/</guid>
       <description>&lt;p&gt;Resources in games are usually taken for granted. They exist, of course—every game has them—but they are often overshadowed by other more elaborate and publicized mechanics. My recent foray into the realm of Grand Strategy, a genre that puts so much emphasis on resources that the games have been jokingly called spreadsheet applications, have let me appreciate how important they are in forming the backbone of a well-executed strategy game. Resources in every game can be summarily categorized into three varieties (the titular trinity), read on if this intrigues you as much as it does me.&lt;/p&gt;</description>
     </item>
-    
+     }}
     <item>
       <title>Old Buildings Are Gorgeous</title>
       <link>https://xuanmingzhou.com/blog/old-buildings-are-gorgeous/</link>
+      <image>https://xuanmingzhou.com/images/travel/sundsvall-01.jpg</image>
       <pubDate>Thu, 05 Aug 2021 11:23:00 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/old-buildings-are-gorgeous/</guid>
       <description>&lt;p&gt;Moving to Sweden to join Paradox was motivated primarily by my love for their games and a shove forward for my career as a game designer, but at the same time, I was also entranced by Sweden&amp;rsquo;s natural beauty and colorful history. Coming from the land-scarce and constantly under-construction metropolis of Singapore, the allure of open skies and storied architecture of old is hard to resist. Over the summer break, I managed to convince my family that a 642 kilometer road trip to southern Sweden to look at old buildings was a good idea. I&amp;rsquo;m still surprised they fell for it.&lt;/p&gt;</description>
     </item>
-    
+     }}
     <item>
       <title>In Pursuit of the Player-Driven Fantasy</title>
       <link>https://xuanmingzhou.com/blog/in-pursuit-of-the-player-fantasy/</link>
@@ -33,16 +34,16 @@
       <guid>https://xuanmingzhou.com/blog/in-pursuit-of-the-player-fantasy/</guid>
       <description>&lt;p&gt;After spending a decade building games for the so-called casual audience, changing course to work on a behemoth like Stellaris has at once been inspiring, academic and humbling for me. While most of the design philosophies I&amp;rsquo;ve acquired in my career so far have been surprisingly transferable to this new genre, a lot of the practical aspects have to be relearned. In the settling dust of my scuffle with the grand strategy giant, one of the most interesting insights that has crystallized from the chaos was a newfound understanding of Paradox&amp;rsquo;s fascination with the player-driven fantasy.&lt;/p&gt;</description>
     </item>
-    
+     }}
     <item>
       <title>Migrating from Wordpress to Hugo</title>
       <link>https://xuanmingzhou.com/blog/migrating-from-wordpress-to-hugo/</link>
       <pubDate>Tue, 12 Jan 2021 19:40:34 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/migrating-from-wordpress-to-hugo/</guid>
-      <description>&lt;p&gt;My old website was hosted on a Raspberry Pi 3 hosting service run by &lt;a href=&#34;https://www.mythic-beasts.com/order/rpi&#34;&gt;Mythic Beasts&lt;/a&gt; that was affordable and fast enough to run a Minecraft server in parallel. The annual contract ran out this month and I was considering renewing, but my usage of the server wasn&amp;rsquo;t nearly enough to warrant spending more money on it, hence I decided to cancel instead. My portfolio site still needed a host so I required an alternative, preferably a free one. Enter Github Pages and Hugo, two things I&amp;rsquo;ve always wanted to try and now have a reason to.&lt;/p&gt;</description>
+      <description>&lt;p&gt;My old website was hosted on a Raspberry Pi 3 hosting service run by &lt;a href=&#34;https://www.mythic-beasts.com/order/rpi&#34; target=&#34;_blank&#34;&gt;Mythic Beasts&lt;/a&gt; that was affordable and fast enough to run a Minecraft server in parallel. The annual contract ran out this month and I was considering renewing, but my usage of the server wasn&amp;rsquo;t nearly enough to warrant spending more money on it, hence I decided to cancel instead. My portfolio site still needed a host so I required an alternative, preferably a free one. Enter Github Pages and Hugo, two things I&amp;rsquo;ve always wanted to try and now have a reason to.&lt;/p&gt;</description>
     </item>
-    
+     }}
     <item>
       <title>Making My Own Arcade Fightstick</title>
       <link>https://xuanmingzhou.com/blog/making-my-own-arcade-fightstick/</link>
