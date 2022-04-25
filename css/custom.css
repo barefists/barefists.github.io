@@ -162,6 +162,9 @@ figure figcaption {
 	line-height: 30px;
 	max-width: 500px;
 }
+.blog-content ul {
+	break-inside: avoid-column;
+}
 .blog-content li::before, .sidebar-menu li::before {
 	padding-right: 10px;
 }
