@@ -1,264 +1,163 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://xuanmingzhou.com/blog/</loc>
-    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/categories/</loc>
-    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/categories/game-design/</loc>
-    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</loc>
-    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://xuanmingzhou.com/</loc>
-    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://xuanmingzhou.com/games/</loc>
-    <lastmod>2022-03-19T08:35:34+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-04-27T08:35:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/games/stellaris-galactic-paragons/</loc>
+    <lastmod>2023-04-27T08:35:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/</loc>
+    <lastmod>2023-04-27T08:35:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/blog/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/categories/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/categories/game-design/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</loc>
+    <lastmod>2022-04-09T11:23:00+01:00</lastmod>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/stellaris-overlord/</loc>
     <lastmod>2022-03-19T08:35:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/blog/the-resource-trinity-of-games/</loc>
     <lastmod>2022-01-09T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/blog/old-buildings-are-gorgeous/</loc>
     <lastmod>2021-08-05T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/categories/travel/</loc>
     <lastmod>2021-08-05T11:23:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/blog/in-pursuit-of-the-player-fantasy/</loc>
     <lastmod>2021-05-17T20:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/blog/migrating-from-wordpress-to-hugo/</loc>
     <lastmod>2021-01-12T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/categories/web-development/</loc>
     <lastmod>2021-01-12T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/categories/diy/</loc>
     <lastmod>2019-04-02T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/blog/making-my-own-arcade-fightstick/</loc>
     <lastmod>2019-04-02T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/polaris/</loc>
     <lastmod>2019-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/contact/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/pocket-ages/</loc>
     <lastmod>2015-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/pillage-people/</loc>
     <lastmod>2014-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/awakening-sunhook-spire/</loc>
     <lastmod>2013-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/awakening-goblin-kingdom/</loc>
     <lastmod>2011-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/death-at-fairing-point/</loc>
     <lastmod>2010-04-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/pirates-plundarrr/</loc>
     <lastmod>2010-03-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/awakening-moonfell-wood/</loc>
     <lastmod>2010-02-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/restricted-recall/</loc>
     <lastmod>2010-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/trivium/</loc>
     <lastmod>2009-04-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/raygrinder/</loc>
     <lastmod>2009-03-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/passport-to-paradise/</loc>
     <lastmod>2009-02-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/03/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/10/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/02/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/08/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/05/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/01/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/04/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/13/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/15/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/06/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/orchard/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/07/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/14/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/11/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/09/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/illustrations/12/</loc>
     <lastmod>2009-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/frogs-in-love/</loc>
     <lastmod>2008-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/hoyle-enchanted-puzzles/</loc>
     <lastmod>2008-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/jewels-of-cleopatra/</loc>
     <lastmod>2008-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/pangaea/</loc>
     <lastmod>2008-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/wiip/</loc>
     <lastmod>2007-01-07T19:40:34+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://xuanmingzhou.com/tags/</loc>
   </url>
-  
 </urlset>
