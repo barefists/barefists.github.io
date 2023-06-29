@@ -6,7 +6,16 @@
     <description>Recent content on Xuanming Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 08:35:34 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" /> }}
+    <lastBuildDate>Wed, 28 Jun 2023 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" /> }}
+    <item>
+      <title>Depth Versus Complexity in Games</title>
+      <link>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</link>
+      <pubDate>Wed, 28 Jun 2023 11:23:00 +0100</pubDate>
+      
+      <guid>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</guid>
+      <description>&lt;p&gt;The world of gaming is a diverse landscape, offering a multitude of experiences and challenges to players. When it comes to strategy games, the discussion often revolves around the delicate balance between depth and complexity. These two terms, although related, carry distinct meanings that shape the player&amp;rsquo;s engagement and enjoyment. In this essay, we will delve into the concept of depth and complexity in games and explore their interconnectedness.&lt;/p&gt;</description>
+    </item>
+     }}
     <item>
       <title>Stellaris: Galactic Paragons</title>
       <link>https://xuanmingzhou.com/games/stellaris-galactic-paragons/</link>
@@ -440,15 +449,6 @@ Programming (GameMaker 7), Game Design&lt;/p&gt;</description>
       <guid>https://xuanmingzhou.com/games/wiip/</guid>
       <description>&lt;p&gt;Singapore-MIT GAMBIT Game Labs (2007), PC/Mac&lt;br&gt;
 Lead Game Design&lt;/p&gt;</description>
-    </item>
-     }}
-    <item>
-      <title>Depth Versus Complexity in Games</title>
-      <link>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</guid>
-      <description>&lt;p&gt;The world of gaming is a diverse landscape, offering a multitude of experiences and challenges to players. When it comes to strategy games, the discussion often revolves around the delicate balance between depth and complexity. These two terms, although related, carry distinct meanings that shape the player&amp;rsquo;s engagement and enjoyment. In this essay, we will delve into the concept of depth and complexity in games and explore their interconnectedness.&lt;/p&gt;</description>
     </item>
     
   </channel>
