@@ -6,7 +6,25 @@
     <description>Recent content in Blogs on Xuanming Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2022 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/blog/index.xml" rel="self" type="application/rss+xml" /> }}
+    <lastBuildDate>Mon, 26 Dec 2022 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/blog/index.xml" rel="self" type="application/rss+xml" /> }}
+    <item>
+      <title>Depth Versus Complexity in Games</title>
+      <link>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</link>
+      <pubDate>Mon, 26 Dec 2022 11:23:00 +0100</pubDate>
+      
+      <guid>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</guid>
+      <description>&lt;p&gt;The world of gaming is a diverse landscape, offering a multitude of experiences and challenges to players. When it comes to strategy games, the discussion often revolves around the delicate balance between depth and complexity. These two terms, although related, carry distinct meanings that shape the player&amp;rsquo;s engagement and enjoyment. In this essay, we will delve into the concept of depth and complexity in games and explore their interconnectedness.&lt;/p&gt;</description>
+    </item>
+     }}
+    <item>
+      <title>Applied MDA: Bridging Theory and Practice</title>
+      <link>https://xuanmingzhou.com/blog/applied-mechanics-dynamics-aesthetics/</link>
+      <pubDate>Wed, 15 Jun 2022 11:23:00 +0100</pubDate>
+      
+      <guid>https://xuanmingzhou.com/blog/applied-mechanics-dynamics-aesthetics/</guid>
+      <description>&lt;p&gt;Among theories of game design, Marc LeBlanc&amp;rsquo;s essay on &lt;a href=&#34;https://users.cs.northwestern.edu/~hunicke/MDA.pdf&#34; target=&#34;_blank&#34;&gt;Mechanics, Dynamics, and Aesthetics&lt;/a&gt; (MDA) stands as a seminal work. However, while MDA is widely studied in academic circles, its practical application often remains elusive, with limited examples available to aspiring designers. In this blog post, we aim to shed light on the practical aspects of applying MDA and explore its potential in game design.&lt;/p&gt;</description>
+    </item>
+     }}
     <item>
       <title>Stellaris Overlord: A Design Retrospective</title>
       <link>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</link>

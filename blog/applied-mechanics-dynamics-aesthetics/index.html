@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Applied MDA: Bridging Theory and Practice - Xuanming Zhou</title>
+<meta name="description" content="Portfolio site of Xuanming Zhou, game designer at Paradox Interactive.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="https://xuanmingzhou.com/images/about/05.jpg"/>
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.carousel.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.theme.css">
+
+<link href="https://xuanmingzhou.com/css/style.pink.css" rel="stylesheet" id="theme-stylesheet">
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://xuanmingzhou.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://xuanmingzhou.com/img/favicon.png">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-142703813-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+    
+      <p class="sidebar-p">Lead Game Designer at Paradox Interactive.</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://xuanmingzhou.com/games/">Games</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/illustrations/">Illustrations</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/blog/">Blog</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/about/">About me</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/zhou.xuanming/" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  
+  
+  <a href="https://www.linkedin.com/in/xuanming-zhou/" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="mailto:xm@live.com.sg" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+</p>
+
+    
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2023 Xuanming Zhou
+        
+		<span class="attribution">
+			<br />
+			Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>, ported to <a href="https://gohugo.io/">Hugo</a> by <a href="https://github.com/kishaningithub">Kishan B</a>.<br>
+Hosted by <a href="https://pages.github.com/">Github Pages</a>.
+		</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+<div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+</div>
+
+<div class="row">
+<div class="col-lg-8">
+<div class="content-column-content blog">
+<h1>Applied MDA: Bridging Theory and Practice</h1>
+<div class="blog-content">
+<p>Among theories of game design, Marc LeBlanc&rsquo;s essay on <a href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf" target="_blank">Mechanics, Dynamics, and Aesthetics</a> (MDA) stands as a seminal work. However, while MDA is widely studied in academic circles, its practical application often remains elusive, with limited examples available to aspiring designers. In this blog post, we aim to shed light on the practical aspects of applying MDA and explore its potential in game design.</p>
+<p><em>Mechanics</em> refer to the rules, systems, and components that define a game. <em>Dynamics</em> describe the emergent behaviors and player experiences that arise from interacting with these mechanics. <em>Aesthetics</em> encompass the emotional responses, player satisfaction, and overall experience that the game evokes.</p>
+<p>MDA serves as a valuable tool for game designers, allowing for the analysis and deconstruction of complex games into comprehensible parts. Let&rsquo;s take a look at how that utility can be effectively employed in practice.</p>
+<h4 id="describing-the-effect-of-rules-in-games">Describing the Effect of Rules in Games</h4>
+<figure>
+    <a href="../../images/blog/applied-mda-01.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/applied-mda-01.jpg" alt="MTG&#39;s rules describe a game about resource management." />
+    </a>
+    
+    <figcaption>
+        MTG&rsquo;s rules describe a game about resource management.
+    </figcaption>
+    
+</figure>
+<p>One of the most significant applications of MDA lies in explaining the impact of rule design to novice game designers. By understanding MDA, designers recognize the butterfly effect that stems from a game&rsquo;s rules, and consequently justify the use of playtesting to evaluate the effects of both intended and unintended changes in mechanics. This understanding encourages designers to carefully craft rules that align with the desired player experience.</p>
+<h4 id="genre-expectations-and-expected-dynamics">Genre Expectations and Expected Dynamics</h4>
+<figure>
+    <a href="../../images/blog/applied-mda-02.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/applied-mda-02.jpg" alt="Valheim focuses on dynamics players really want." />
+    </a>
+    
+    <figcaption>
+        Valheim focuses on dynamics players really want.
+    </figcaption>
+    
+</figure>
+<p>When players choose games within a specific genre, they are not actually looking for a collection of mechanics but rather specific dynamics. They crave certain types of decisions and particular challenges. The mechanics used to build these challenges may vary, but the resultant dynamics must resonate with the genre&rsquo;s conventions.</p>
+<p>For instance, fans of puzzle platformers are drawn to character dynamics involving physics, which can manifest in various mechanics, such as those found in <a href="https://store.steampowered.com/app/400/Portal/" target="_blank">Portal</a> or <a href="https://store.steampowered.com/app/249590/Teslagrad/" target="_blank">Teslagrad</a>. Similarly, battle royale players seek the dynamics of multiplayer survival, which can range from the whimsy of <a href="https://store.steampowered.com/app/1097150/Fall_Guys/" target="_blank">Fall Guys</a> to the intensity of PlayerUnknown&rsquo;s Battlegrounds (<a href="%28https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/%29">PUBG</a>).</p>
+<h4 id="defining-roles-in-a-game-design-team">Defining Roles in a Game Design Team</h4>
+<p>An often overlooked application of the MDA framework is in defining roles within a game design team, which typically consists of a game director, a lead designer, system designers, and content designers.</p>
+<p>The game director establishes the desired aesthetic (commonly known as game direction). System and content designers then create the mechanics and rules that align with that aesthetic, while the lead designer ensures the produced mechanics work together to achieve dynamics consistent with genre expectations and coherence with the aesthetic defined by the game director.</p>
+<p>This application of MDA helps clarify responsibilities and fosters collaboration within the team.</p>
+<h4 id="juxtaposing-dynamics">Juxtaposing Dynamics</h4>
+<p>One intriguing aspect of applying MDA is the ability to compare and draw inspiration from seemingly unrelated games that share similar dynamics.</p>
+<p>Despite wildly different mechanics, games like <a href="https://store.epicgames.com/en-US/p/tony-hawks-pro-skater-1-and-2" target="_blank">Tony Hawk Pro Skater</a> and the <a href="https://store.steampowered.com/app/601150/Devil_May_Cry_5/" target="_blank">Devil May Cry</a> series share streak-chasing and environment-focused dynamics. This realization allows developers of either game to gain insights and inspiration from the other, enabling the exploration of new ideas and the creation of fresh gameplay experiences.</p>
+<figure>
+    <a href="../../images/blog/applied-mda-03.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/applied-mda-03.jpg" alt="Seemingly unrelated games can share similar dynamics." />
+    </a>
+    
+    <figcaption>
+        Seemingly unrelated games can share similar dynamics.
+    </figcaption>
+    
+</figure>
+<p>Another fascinating example lies in the unexpected similarity between the aforementioned battle royale game PUBG and the traditional card game <a href="https://en.wikipedia.org/wiki/Blackjack" target="_blank">Blackjack</a>.</p>
+<p>In PUBG, players spawn with a collection of randomized equipment around them and must decide if it&rsquo;s worth the risk to expose themselves in search of better equipment, or play it safe and hide; in Blackjack, players are dealt a random hand and must decide whether to take another card or play it safe with their current hand.</p>
+<p>This juxtaposition of dynamics across different game genres illustrates the versatility of MDA as a framework for understanding gameplay experiences.</p>
+<h4 id="conclusion">Conclusion</h4>
+<p>The application of MDA in practical game design scenarios holds immense potential for aspiring designers. By utilizing MDA, designers can effectively describe the impact of rule design, understand genre expectations, juxtapose dynamics, and draw inspiration from diverse sources.</p>
+<p>Embracing MDA empowers designers to create cohesive and engaging gaming experiences that resonate with players on multiple levels. As the realm of game design continues to evolve, the practical application of MDA becomes increasingly vital in shaping the future of interactive entertainment.</p>
+</div>
+<div class="return-to-top">
+<a href="#">Return to Top</a>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xuanming-zhou-portfolio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+</div>
+</div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://xuanmingzhou.com/js/jquery.min.js"></script>
+<script src="https://xuanmingzhou.com/js/bootstrap.min.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.cookie.js"> </script>
+<script src="https://xuanmingzhou.com/js/ekko-lightbox.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.scrollTo.min.js"></script>
+<script src="https://xuanmingzhou.com/js/masonry.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/owl.carousel.min.js"></script>
+<script src="https://xuanmingzhou.com/js/front.js"></script>
+
+
+
+</body>
+</html>
