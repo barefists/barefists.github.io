@@ -6,7 +6,16 @@
     <description>Recent content on Xuanming Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2023 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" /> }}
+    <lastBuildDate>Mon, 10 Jul 2023 11:23:00 +0100</lastBuildDate><atom:link href="https://xuanmingzhou.com/index.xml" rel="self" type="application/rss+xml" /> }}
+    <item>
+      <title>The Ballet of Chance and Agency</title>
+      <link>https://xuanmingzhou.com/blog/chance-and-agency/</link>
+      <pubDate>Mon, 10 Jul 2023 11:23:00 +0100</pubDate>
+      
+      <guid>https://xuanmingzhou.com/blog/chance-and-agency/</guid>
+      <description>&lt;p&gt;The random number generator (RNG) is an integral component found in numerous game engines, allowing for the introduction of chance and unpredictability. Despite its ubiquitous presence, the positioning of player decisions in relation to dice rolls is a frequently disregarded aspect. Today, we will delve into this intriguing aspect and explore how it can significantly impact the dynamics of a game.&lt;/p&gt;</description>
+    </item>
+     }}
     <item>
       <title>Depth Versus Complexity in Games</title>
       <link>https://xuanmingzhou.com/blog/depth-and-complexity-in-games/</link>
