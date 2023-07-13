@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Teamwork Quiz
+        </title>
+    </head>
+    <body style="width:752px;">
+        <h2>Teamwork Quiz</h2>
+        <p>Originally found at <a href="https://web.archive.org/web/20230131161137/https://www.kent.ac.uk/ces/sk/teamwork.html">https://www.kent.ac.uk/ces/sk/teamwork.html</a>.<br>Copy hosted by <a href="https://xuanmingzhou.com/">Xuanming Zhou</a></p>
+        <form name="form1" id="form1">
+            <table width="80%" cellpadding="5" border="0" bgcolor="#ffffcc" align="center">
+              <tbody>
+                <tr>
+                  <td colspan="6"><textarea name="Questionbox" rows="2" cols="80" wrap="virtual"></textarea></td>
+                </tr>
+                <tr>
+                  <td width="18%"><input name="nextquestbutton" value="First Question" onclick="NextQuest()" type="button"></td>
+                  <td width="15%" valign="top"><div align="center">
+                    <input value="" name="question_1" onclick="ShowAnswer()" type="radio">
+                    <strong><br>
+                      Rarely</strong></div></td>
+                  <td width="16%"><div align="center">
+                    <input value="" name="question_1" onclick="ShowAnswer()" type="radio">
+                    <strong>Sometimes</strong>&nbsp;</div></td>
+                  <td width="15%" valign="top"><div align="center">
+                    <input value="" name="question_1" onclick="ShowAnswer()" type="radio">
+                    <br>
+                    <strong>Frequently</strong></div></td>
+                  <td width="15%" valign="top"><div align="center"><strong>
+                    <input value="" name="question_1" onclick="ShowAnswer()" type="radio">
+                    <strong><br>
+                      Always</strong></strong></div></td>
+                  <td width="20%"><strong><strong>
+                    <input name="previousquestbutton" id="previousquestbutton" onclick="PrevQuest()" value="Previous Question" type="button">
+                  </strong></strong></td>
+                </tr>
+                <tr>
+                  <td width="18%" valign="middle"><h3><strong>Scores</strong>:</h3></td>
+                  <td colspan="3" valign="top"><textarea name="Scorebox" cols="30" rows="7"></textarea></td>
+                  <td colspan="2" valign="top">&nbsp;&nbsp;
+                   <p style="margin-bottom: 12px;">&nbsp;</p>
+                   <p><em>Test designed and developed by Bruce Woodcock</em></p></td>
+                 </tr>
+              </tbody>
+            </table>
+          </form>
+          <h3>Your score</h3>
+          <p><strong>Your score can be from 0 to a maximum of 12 on each of seven group roles. Make a note of your scores or print out the page and then see below to find out what these roles involve.</strong></p>
+          <p>View explanation of the scores <a href="explanation.html">here</a>.</p>
+          <script language="javascript" src="teamquiz.js"></script>
+    </body>
+</html>
