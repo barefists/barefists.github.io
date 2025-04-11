@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xuanmingzhou.com/blog/</loc>
+    <lastmod>2025-04-10T23:40:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/categories/</loc>
+    <lastmod>2025-04-10T23:40:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/categories/diy/</loc>
+    <lastmod>2025-04-10T23:40:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/blog/kn-apollo-for-my-cruze/</loc>
+    <lastmod>2025-04-10T23:40:34+01:00</lastmod>
+  </url><url>
+    <loc>https://xuanmingzhou.com/</loc>
+    <lastmod>2025-04-10T23:40:34+01:00</lastmod>
+  </url><url>
     <loc>https://xuanmingzhou.com/games/</loc>
     <lastmod>2024-03-01T08:35:34+01:00</lastmod>
   </url><url>
     <loc>https://xuanmingzhou.com/games/glyphica-typing-survival/</loc>
     <lastmod>2024-03-01T08:35:34+01:00</lastmod>
-  </url><url>
-    <loc>https://xuanmingzhou.com/</loc>
-    <lastmod>2024-03-01T08:35:34+01:00</lastmod>
-  </url><url>
-    <loc>https://xuanmingzhou.com/blog/</loc>
-    <lastmod>2023-07-10T11:23:00+01:00</lastmod>
-  </url><url>
-    <loc>https://xuanmingzhou.com/categories/</loc>
-    <lastmod>2023-07-10T11:23:00+01:00</lastmod>
   </url><url>
     <loc>https://xuanmingzhou.com/categories/game-design/</loc>
     <lastmod>2023-07-10T11:23:00+01:00</lastmod>
@@ -55,9 +61,6 @@
   </url><url>
     <loc>https://xuanmingzhou.com/categories/web-development/</loc>
     <lastmod>2021-01-12T19:40:34+01:00</lastmod>
-  </url><url>
-    <loc>https://xuanmingzhou.com/categories/diy/</loc>
-    <lastmod>2019-04-02T19:40:34+01:00</lastmod>
   </url><url>
     <loc>https://xuanmingzhou.com/blog/making-my-own-arcade-fightstick/</loc>
     <lastmod>2019-04-02T19:40:34+01:00</lastmod>
