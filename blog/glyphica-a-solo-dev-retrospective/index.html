@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Glyphica: A Solo Dev&#39;s Retrospective - Xuanming Zhou</title>
+<meta name="description" content="Portfolio site of Xuanming Zhou, founder/designer at aliasBLACK. Ex-Paradox lead designer.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="/../../images/blog/glyphica-retro-06.png"/>
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.carousel.css">
+<link rel="stylesheet" href="https://xuanmingzhou.com/css/owl.theme.css">
+
+<link href="https://xuanmingzhou.com/css/style.pink.css" rel="stylesheet" id="theme-stylesheet">
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://xuanmingzhou.com/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://xuanmingzhou.com/img/favicon.png">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-142703813-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+    
+      <p class="sidebar-p">Indie Game Developer</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://xuanmingzhou.com/games/">Games</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/illustrations/">Illustrations</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/blog/">Blog</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/about/">About me</a></li>
+      
+        <li><a href="https://xuanmingzhou.com/contact/">Get in touch</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/zhou.xuanming/" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  
+  
+  <a href="https://www.linkedin.com/in/xuanming-zhou/" data-animate-hover="pulse" class="external">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="mailto:xm@live.com.sg" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+</p>
+
+    
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2025 Xuanming Zhou
+        
+		<span class="attribution">
+			<br />
+			Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>, ported to <a href="https://gohugo.io/">Hugo</a> by <a href="https://github.com/kishaningithub">Kishan B</a>.<br>
+Hosted by <a href="https://pages.github.com/">Github Pages</a>.
+		</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+<div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://xuanmingzhou.com">Xuanming Zhou</a></h1>
+</div>
+
+<div class="row">
+<div class="col-lg-8">
+<div class="content-column-content blog">
+<h1>Glyphica: A Solo Dev&#39;s Retrospective</h1>
+<div class="blog-content">
+<p>After the madness of our early access launch back in October, things have finally settled down enough for me to take a breath—and reflect. Glyphica has been a labor of love, frustration, inspiration, and a lot of late nights, and now that the dust has cleared (a little), I thought it would be a good time to do a bit of a retrospective on how this project came to be.</p>
+<p>Glyphica was developed over the course of 8 months, evolving from a barebones prototype to its early access release. It’s been, for the most part, a solo effort—aside from the fantastic folks at IMBA Interactive, who brought their audio magic to the game’s music and sound design.</p>
+<p>The road to Glyphica started a year earlier, when I moved back to Singapore after living in Sweden. While there, I worked at Paradox Interactive on Stellaris, a job I loved. But with our eldest child reaching school age, we felt it was time to return. We wanted her to enter Singapore’s education system on time—it’s infamously demanding, and delaying would only make it harder for her to catch up.</p>
+<figure>
+    <a href="../../images/about/01.jpg" data-toggle="lightbox">
+        <img src="../../images/about/01.jpg" alt="Paradox was a great experience for me." />
+    </a>
+    
+    <figcaption>
+        Paradox was a great experience for me.
+    </figcaption>
+    
+</figure>
+<p>Back in Singapore, I quickly realized that the job market for game designers here wasn’t exactly ideal. Few studios were hiring for roles that matched the scope or compensation of my previous work, and I’ll admit—I was also picky. I knew I needed to be working on something I cared about. I explored a few collaborations, but for one reason or another, none of them panned out. After a year of searching and waiting, I decided: if nothing was a good fit, I’d make something of my own.</p>
+<p>I went in knowing that the first game from a new studio rarely hits it big. My goal with Glyphica wasn’t to make the next indie darling—it was to build something small and shippable, to start. I gave myself 6 months to get it done and move on to the next.</p>
+<p>Given that time constraint, I needed to lean into my strengths — particularly systems design. I wanted something systemic, something where the content I created could interact with itself, multiplying in value through emergent gameplay. It would allow me to stretch my solo dev time further.</p>
+<p>At the time, I was playing a lot of Vampire Survivors, and thought it would be fun to do my own spin on a horde survival game — but with alternative controls. I’ve always loved typing games, like <a href="https://zty.pe/" target="_blank">Z-Type</a>, <a href="https://store.steampowered.com/app/246580/The_Typing_of_The_Dead_Overkill/" target="_blank">Typing of the Dead</a>, and <a href="https://pondspark.blogspot.com/2001/01/typogun_9514.html" target="_blank">Typogun</a>, a cool game by my friend Justin (aka Pondwater or Gleamwater online). Typing games are a niche within a niche, and most were free, so I figured this would either completely flop or I’d be the only fish in a small pond—which, as I learned at Paradox, can be a great place for an indie to start.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-01.png" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-01.png" alt="Typogun was the OG Glyphica." />
+    </a>
+    
+    <figcaption>
+        Typogun was the OG Glyphica.
+    </figcaption>
+    
+</figure>
+<p>Visually, I knew I couldn’t afford to sink too much time into bespoke assets. I considered a <a href="https://store.steampowered.com/app/8400/Geometry_Wars_Retro_Evolved/" target="_blank">Geometry Wars</a>-style neon aesthetic, but didn’t want to do something that’s already been done to death. Instead, I drew inspiration from minimalist games like <a href="https://store.steampowered.com/app/287980/Mini_Metro/" target="_blank">Mini Metro</a> and <a href="https://store.steampowered.com/app/367580/Hook/" target="_blank">Hook</a> — clean, readable, and stylish without requiring a full art team.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-02.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-02.jpg" alt="Hook was a huge inspiration." />
+    </a>
+    
+    <figcaption>
+        Hook was a huge inspiration.
+    </figcaption>
+    
+</figure>
+<p>The first prototype of Glyphica was extremely barebones. Just five weapons: the Repeater, Spectre, Hunter, Tesla, and Sentry. Only endless mode. Level-ups gave basic stat boosts. Nothing fancy. I brought it to a game design class a friend was teaching to get some feedback from the students. The response surprised me — they were hooked. They offered insightful, actionable feedback too: level-ups were disrupting the typing &ldquo;flow&rdquo;, so I reworked them to let players delay their level-up choices. Some also wanted a more structured goal, which led to the creation of Trials.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-03.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-03.jpg" alt="Early version of Glyphica." />
+    </a>
+    
+    <figcaption>
+        Early version of Glyphica.
+    </figcaption>
+    
+</figure>
+<p>I started following <a href="https://howtomarketagame.com/" target="_blank">Chris Zukowski</a> and joined his Discord, soaking up everything I could about indie game marketing. I took his advice seriously and began posting regularly about Glyphica across social media. I tried YouTube devlogs, TikTok reels, and the usual Twitter/X teasers. But honestly, most of it went nowhere.</p>
+<p>Then I tried Reddit.</p>
+<p>Still screenshots didn’t move the needle, but once I started posting GIFs — especially to genre-relevant subreddits — the response was immediate and massive. Posts were getting <a href="https://www.reddit.com/r/oddlysatisfying/comments/1cnyupg/oc_my_typing_roguelite_game/" target="_blank">hundreds</a> to <a href="https://www.reddit.com/r/MechanicalKeyboards/comments/1cdnp9r/wanna_test_your_keyboard_check_out_the_demo_for/" target="_blank">thousands</a> of upvotes, with one even hitting Reddit’s <a href="https://www.reddit.com/r/gifs/comments/1c0p48i/my_typing_roguelite_game/" target="_blank">front page</a>. It was clear I had found the right channel to show off the game’s core appeal: fast-paced, satisfying, kinetic action powered by typing.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-04.png" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-04.png" alt="Reddit did really well for us." />
+    </a>
+    
+    <figcaption>
+        Reddit did really well for us.
+    </figcaption>
+    
+</figure>
+<p>Things escalated quickly. Out of the blue, a Japanese site called Indie Freaks picked up the game and <a href="https://x.com/Indie_FreaksJP/status/1763062651637174676" target="_blank">tweeted</a> about it to their followers. The post blew up, pulling in tens of thousands of hits. Then Denfaminicogamer, another huge Japanese games outlet, featured Glyphica in an <a href="https://news.denfaminicogamer.jp/news/241009y" target="_blank">article</a> and <a href="https://x.com/denfaminicogame/status/1844043083568292033" target="_blank">tweet</a>. Just like that, Glyphica had captured the attention of the elusive (and incredibly enthusiastic) Japanese gaming community.</p>
+<p>Chris Zukowski featured Glyphica on his website in a post titled &ldquo;<a href="https://howtomarketagame.com/2024/08/12/big-in-japan/" target="_blank">Big in Japan</a>&rdquo;, highlighting how the game was starting to gain attention in Japan even before its release. That was a surreal full-circle moment — Chris’s marketing advice had helped shape our strategy, and now we were being recognized for it.</p>
+<p>Wishlists started pouring in, far beyond anything I had expected. My original plan — ship it, forget it, move on — suddenly didn’t make sense anymore.</p>
+<p>That’s when an old colleague from Paradox, Ryan Sumo, reached out. He suggested helping on the biz dev and publishing side through his label, <a href="https://www.squeakywheel.ph/" target="_blank">Squeaky Wheel</a>. Given how fast things were snowballing, I happily said yes — I needed the help.</p>
+<p>Together, we started to rethink the game’s future. Instead of treating it as a one-and-done project, we decided to expand Glyphica, launching it in Early Access to grow it with player feedback. One of our first goals: localization, starting with Japanese.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-05.jpg" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-05.jpg" alt="Japan remains one of our largest markets." />
+    </a>
+    
+    <figcaption>
+        Japan remains one of our largest markets.
+    </figcaption>
+    
+</figure>
+<p>We debuted the demo during Steam Next Fest in June 2024, and it did better than I could have hoped. More wishlists, more attention, more momentum. We started a Discord server, which quickly became a fantastic hub for feedback and discussion. We even created a beta testing group, and recruited two amazing moderators — Kariston for the English community and Haruto for the Japanese one.</p>
+<p>Community feedback led directly to major gameplay improvements. We added the Evolutions and Augments systems to deepen build variety. Around this time, Balatro blew up in popularity — it inspired me to add my own spin on Balatro’s “Stakes” mechanic. I called them Omens — modifiers that add challenge and replayability to Trial Mode. It was the right move, especially with Early Access launching with limited content we’d build out over time.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-07.png" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-07.png" alt="Omens extended the playtime of Trials." />
+    </a>
+    
+    <figcaption>
+        Omens extended the playtime of Trials.
+    </figcaption>
+    
+</figure>
+<p>I also had the chance to bring Glyphica on the road. I was part of the Singapore Pavilion at Bitsummit 2024 in Kyoto — a fantastic experience that not only put Glyphica in front of a Japanese audience, but also gave me the chance to meet so many inspiring indie developers from across the region. I was also invited to Busan Indie Connect in South Korea, where I got to show the game to a whole new crowd, watch people react in real time, and gather a ton of great feedback from players and fellow devs alike. Being at these conventions was a huge morale boost and gave me clearer direction on how to shape the game going forward.</p>
+<figure>
+    <a href="../../images/blog/glyphica-retro-06.png" data-toggle="lightbox">
+        <img src="../../images/blog/glyphica-retro-06.png" alt="In South Korea with Bings, our audio wizard." />
+    </a>
+    
+    <figcaption>
+        In South Korea with Bings, our audio wizard.
+    </figcaption>
+    
+</figure>
+<p>We were also recommended Neon Noroshi for PR in Japan — an absolute godsend, as none of us spoke Japanese. Ryan coordinated the translators, and we ended up with nine languages at launch (with Japanese being the only one requiring additional coding and coordination). Working with Neon Noroshi, we planned a simultaneous worldwide release, with Japan as a major focus.</p>
+<p>On October 24, 2024, Glyphica launched in Early Access—and by every metric, it was a success. The biggest surprise? Japan absolutely embraced the game. We were featured in <a href="https://www.famitsu.com/article/202410/20524" target="_blank">Famitsu</a> magazine, covered by <a href="https://automaton-media.com/articles/newsjp/glyphica-20240925-311895/" target="_blank">Automaton</a>, and picked up by streamers and influencers. It was surreal.</p>
+<p>Now, a few months later, I’m happy to say the game is earning me an actual salary. The plan from here is simple: keep building, expand the content, add more languages and get Glyphica to a strong 1.0 release.</p>
+<p>It’s been an amazing journey so far — from solo prototype to a game that’s found an audience around the world. I’m deeply grateful for the support and excitement from players, and I honestly can’t wait to see what’s next.</p>
+</div>
+<div class="return-to-top">
+<a href="#">Return to Top</a>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xuanming-zhou-portfolio" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+</div>
+</div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://xuanmingzhou.com/js/jquery.min.js"></script>
+<script src="https://xuanmingzhou.com/js/bootstrap.min.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.cookie.js"> </script>
+<script src="https://xuanmingzhou.com/js/ekko-lightbox.js"></script>
+<script src="https://xuanmingzhou.com/js/jquery.scrollTo.min.js"></script>
+<script src="https://xuanmingzhou.com/js/masonry.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://xuanmingzhou.com/js/owl.carousel.min.js"></script>
+<script src="https://xuanmingzhou.com/js/front.js"></script>
+
+
+
+</body>
+</html>
