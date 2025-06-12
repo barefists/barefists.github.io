@@ -214,3 +214,11 @@ figure figcaption {
   border: 0;
   padding: 3px;
 }
+.next a,
+.previous a {
+	background-color: #0d0d0d !important;
+}
+.next a:hover,
+.previous a:hover {
+	background-color: #ef5285 !important;
+}
