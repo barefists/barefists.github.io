@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Blogs on Xuanming Zhou</title>
     <link>https://xuanmingzhou.com/blog/</link>
@@ -11,6 +11,7 @@
       <title>Perth to Margaret River</title>
       <link>https://xuanmingzhou.com/blog/perth-to-margaret-river/</link>
       <image>https://xuanmingzhou.com/../../images/blog/busselton-jetty.png</image>
+      <media:content url="https://xuanmingzhou.com/../../images/blog/busselton-jetty.png"></media:content>
       <pubDate>Tue, 10 Jun 2025 22:36:52 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/perth-to-margaret-river/</guid>
@@ -21,6 +22,7 @@
       <title>K&amp;N Apollo for my Cruze</title>
       <link>https://xuanmingzhou.com/blog/kn-apollo-for-my-cruze/</link>
       <image>https://xuanmingzhou.com/../../images/blog/apollo-cruze-og.jpg</image>
+      <media:content url="https://xuanmingzhou.com/../../images/blog/apollo-cruze-og.jpg"></media:content>
       <pubDate>Thu, 10 Apr 2025 23:40:34 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/kn-apollo-for-my-cruze/</guid>
@@ -31,6 +33,7 @@
       <title>Glyphica: A Solo Dev&#39;s Retrospective</title>
       <link>https://xuanmingzhou.com/blog/glyphica-a-solo-dev-retrospective/</link>
       <image>https://xuanmingzhou.com/../../images/blog/glyphica-retro-06.png</image>
+      <media:content url="https://xuanmingzhou.com/../../images/blog/glyphica-retro-06.png"></media:content>
       <pubDate>Sat, 28 Dec 2024 10:38:34 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/glyphica-a-solo-dev-retrospective/</guid>
@@ -41,6 +44,7 @@
       <title>The Ballet of Chance and Agency</title>
       <link>https://xuanmingzhou.com/blog/the-ballet-of-chance-and-agency/</link>
       <image>https://xuanmingzhou.com/../../images/blog/chance-and-agency-01.jpg</image>
+      <media:content url="https://xuanmingzhou.com/../../images/blog/chance-and-agency-01.jpg"></media:content>
       <pubDate>Mon, 10 Jul 2023 11:23:00 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/the-ballet-of-chance-and-agency/</guid>
@@ -69,6 +73,7 @@
       <title>Stellaris Overlord: A Design Retrospective</title>
       <link>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</link>
       <image>https://xuanmingzhou.com/../../images/overlord-retro/og_image.jpg</image>
+      <media:content url="https://xuanmingzhou.com/../../images/overlord-retro/og_image.jpg"></media:content>
       <pubDate>Sat, 09 Apr 2022 11:23:00 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/stellaris-overlord-design-retrospective/</guid>
@@ -97,6 +102,7 @@
       <title>In Pursuit of the Player-Driven Fantasy</title>
       <link>https://xuanmingzhou.com/blog/in-pursuit-of-the-player-fantasy/</link>
       <image>https://xuanmingzhou.com/../../images/blog/ck3-2.jpg</image>
+      <media:content url="https://xuanmingzhou.com/../../images/blog/ck3-2.jpg"></media:content>
       <pubDate>Mon, 17 May 2021 20:00:00 +0100</pubDate>
       
       <guid>https://xuanmingzhou.com/blog/in-pursuit-of-the-player-fantasy/</guid>
